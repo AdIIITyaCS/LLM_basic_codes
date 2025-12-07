@@ -1,7 +1,7 @@
 # # #here we are initially using the simple working of LLM where no memory is setup and answers we get only on the same context
 
 # from google import genai
-# client = genai.Client(api_key="AIzaSyDSWHHlp875BoZR6KDos5fxEG_lMTMXSYY")
+# client = genai.Client(api_key="your valid api")
 # response = client.models.generate_content(
 #     model="gemini-2.5-flash", contents="Okay,I am Aditya.Now can you tell what is my name?"
 # )
@@ -19,7 +19,7 @@
 # from google import genai
 # from google.genai import types
 # # 1. Initialize the Client (Replace with your key)
-# client = genai.Client(api_key="AIzaSyDSWHHlp875BoZR6KDos5fxEG_lMTMXSYY")
+# client = genai.Client(api_key="your valid api")
 
 # # 2. Define the function (Synchronous version is standard in Python)
 # def main():
@@ -64,7 +64,7 @@
 
 # from google import genai
 # # 1. Initialize the Client
-# client = genai.Client(api_key="AIzaSyDSWHHlp875BoZR6KDos5fxEG_lMTMXSYY")
+# client = genai.Client(api_key="your valid api")
 
 # # 2. Initialize an empty list to maintain chat history manually
 # chat_history = []
@@ -112,7 +112,7 @@
 from google import genai
 
 # 1. Setup Client
-client = genai.Client(api_key="AIzaSyDSWHHlp875BoZR6KDos5fxEG_lMTMXSYY")
+client = genai.Client(api_key="your valid api")
 
 # 2. Create the Chat Session (This object holds the memory/history automatically)
 #    This is the equivalent of: const chat = ai.chats.create(...)
